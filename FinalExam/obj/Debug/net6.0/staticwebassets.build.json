@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "74Is+tfGhicoUkbMzp3TUGM94RRi7aKq+HYnIQQsbZA=",
+  "Hash": "2AbX277boQSKFuI5wIs5i9Y20st/Ph1AZq+xZ9TUxJ0=",
   "Source": "FinalExam",
   "BasePath": "_content/FinalExam",
   "Mode": "Default",
@@ -2635,6 +2635,23 @@
       "OriginalItemSpec": "wwwroot\\img\\glyphicons-halflings.png"
     },
     {
+      "Identity": "C:\\Users\\CA.R215.18\\Desktop\\FinalExam\\FinalExam\\wwwroot\\img\\icons\\1d109f7a-b159-4751-8fe8-b5329c459b5934ghdgg33ffssfff3.png",
+      "SourceId": "FinalExam",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\CA.R215.18\\Desktop\\FinalExam\\FinalExam\\wwwroot\\",
+      "BasePath": "_content/FinalExam",
+      "RelativePath": "img/icons/1d109f7a-b159-4751-8fe8-b5329c459b5934ghdgg33ffssfff3.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\icons\\1d109f7a-b159-4751-8fe8-b5329c459b5934ghdgg33ffssfff3.png"
+    },
+    {
       "Identity": "C:\\Users\\CA.R215.18\\Desktop\\FinalExam\\FinalExam\\wwwroot\\img\\icons\\4b1ceed7-940a-483c-ae9b-d039172cffd734ghdgg33ffssfff3.png",
       "SourceId": "FinalExam",
       "SourceType": "Discovered",
@@ -2652,12 +2669,12 @@
       "OriginalItemSpec": "wwwroot\\img\\icons\\4b1ceed7-940a-483c-ae9b-d039172cffd734ghdgg33ffssfff3.png"
     },
     {
-      "Identity": "C:\\Users\\CA.R215.18\\Desktop\\FinalExam\\FinalExam\\wwwroot\\img\\icons\\7197781c-5a2c-42a8-8fd9-239adc0efee834ghdgg33ffssfff3.png",
+      "Identity": "C:\\Users\\CA.R215.18\\Desktop\\FinalExam\\FinalExam\\wwwroot\\img\\icons\\9939e182-b144-43f9-bb01-d1ac59580e841822821_1200x627.jpg",
       "SourceId": "FinalExam",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CA.R215.18\\Desktop\\FinalExam\\FinalExam\\wwwroot\\",
       "BasePath": "_content/FinalExam",
-      "RelativePath": "img/icons/7197781c-5a2c-42a8-8fd9-239adc0efee834ghdgg33ffssfff3.png",
+      "RelativePath": "img/icons/9939e182-b144-43f9-bb01-d1ac59580e841822821_1200x627.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -2666,7 +2683,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\icons\\7197781c-5a2c-42a8-8fd9-239adc0efee834ghdgg33ffssfff3.png"
+      "OriginalItemSpec": "wwwroot\\img\\icons\\9939e182-b144-43f9-bb01-d1ac59580e841822821_1200x627.jpg"
     },
     {
       "Identity": "C:\\Users\\CA.R215.18\\Desktop\\FinalExam\\FinalExam\\wwwroot\\img\\icons\\basket.png",

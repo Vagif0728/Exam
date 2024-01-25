@@ -1,4 +1,11 @@
-﻿<!DOCTYPE HTML>
+﻿@using FinalExam.Services;
+@inject LayoutService services
+@{
+	Dictionary<string, string> settings = await services.GetSettingAsync();
+}
+
+
+<!DOCTYPE HTML>
 <html lang="en">
 
 <head>
@@ -102,10 +109,12 @@
 			<div class="row">
 				<div class="span6 offset3">
 					<ul class="social-networks">
-						<li><a href="#"><i class="icon-circled icon-bgdark icon-instagram icon-2x"></i></a></li>
-						<li><a href="#"><i class="icon-circled icon-bgdark icon-twitter icon-2x"></i></a></li>
-						<li><a href="#"><i class="icon-circled icon-bgdark icon-dribbble icon-2x"></i></a></li>
-						<li><a href="#"><i class="icon-circled icon-bgdark icon-pinterest icon-2x"></i></a></li>
+
+						<li><a href="#">@Html.Raw(settings["Instagram"])</a></li>
+						<li><a href="#">@Html.Raw(settings["Twitter"])</a></li>
+						<li><a href="#">@Html.Raw(settings["Ball"])</a></li>
+						<li><a href="#">@Html.Raw(settings["Pinterst"])</a></li>
+						
 					</ul>
 					<p class="copyright">
 						&copy; Maxim Theme. All rights reserved.

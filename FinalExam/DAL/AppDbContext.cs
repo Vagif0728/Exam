@@ -11,6 +11,7 @@ namespace FinalExam.DAL
 
         }
 
-        public DbSet<Service> Services { get; set; }    
+        public DbSet<Service> Services { get; set; }  
+        public DbSet<Setting> Settings { get; set; }
     }
 }

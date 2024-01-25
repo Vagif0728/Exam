@@ -2,13 +2,16 @@
 using FinalExam.DAL;
 using FinalExam.Models;
 using FinalExam.Utilities.Extension;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using System.Data;
 
 namespace FinalExam.Areas.Admin.Controllers
 {
     [Area("Admin")]
-    public class ServiceController : Controller
+	[Authorize(Roles = "Admin")]
+	public class ServiceController : Controller
     {
         private readonly AppDbContext _context;
         private readonly IWebHostEnvironment _env;

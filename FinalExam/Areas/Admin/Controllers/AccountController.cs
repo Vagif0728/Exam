@@ -6,6 +6,13 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace FinalExam.Controllers
 {
+   // UserName = Vagif555
+   // Parol = Vagif555      ---- Admin account
+
+
+
+
+
     [Area("Admin")]
     public class AccountController : Controller
     {

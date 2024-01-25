@@ -214,7 +214,7 @@
                             <ul class="nav flex-column sub-menu">
                                 @if (User.Identity.IsAuthenticated)
                                 {
-                                    <li class="nav-item"> <a class="nav-link" href="pages/samples/login.html"> Logout </a></li>
+                                    <li class="nav-item"> <a asp-action="logout" asp-controller="account" asp-area="admin" class="nav-link" > Logout </a></li>
                                     <li class="nav-item"> <a class="nav-link" href="pages/samples/login-2.html">@User.Identity.Name </a></li>
                                 }
                             
@@ -224,7 +224,7 @@
                     <li class="nav-item">
                         <a class="nav-link" href="documentation/documentation.html">
                             <i class="mdi mdi-file-document-box-outline menu-icon"></i>
-                            <span class="menu-title">settings</span>
+                            <a style="margin-left:50px;" asp-action="index" asp-controller="setting" asp-area="admin" class="btn btn-primary">Setting</a>
                         </a>
                     </li>
                 </ul>

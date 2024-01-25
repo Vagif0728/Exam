@@ -1,6 +1,9 @@
 ﻿namespace FinalExam.Utilities.Enum
 {
-    public class UserRole
+    public enum UserRole
     {
+        Admin,
+        Moderator,
+        Member
     }
 }

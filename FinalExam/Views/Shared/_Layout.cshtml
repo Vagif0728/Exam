@@ -39,6 +39,22 @@
 							<li><a title="blog" href="#blog">Blog</a></li>
 							<li><a title="contact" href="#contact">Contact</a></li>
 							<li><a href="page.html">Page</a></li>
+
+							@if (User.Identity.IsAuthenticated)
+							{
+								<li><a asp-action="logout" asp-controller="account" asp-area="admin" >Logout</a></li>
+								<li><a >@User.Identity.Name</a></li>
+								if (User.IsInRole(role: "Admin"))
+								{
+									<li><a asp-action="index" asp-controller="home" asp-area="admin">Admin Panel</a></li>
+								}
+
+							}
+							else
+							{
+								<li><a asp-action="login" asp-controller="account" asp-area="admin">Login</a></li>
+								<li><a asp-action="register" asp-controller="account" asp-area="admin">Register</a></li>
+							}
 						</ul>
 					</nav>
 				</div>

@@ -1,0 +1,42 @@
+﻿
+
+@model RegisterVM
+
+<div class="col-md-6 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">Register form</h4>
+            
+            <form method="post" class="forms-sample">
+                <div class="form-group">
+                    <label asp-for="Username">Username</label>
+                    <input asp-for="Username" class="form-control" placeholder="Username">
+                    <span class="text-danger" asp-validation-for="Username"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Name" >Name</label>
+                    <input asp-for="Name" class="form-control"  placeholder="Name">
+                    <span class="text-danger" asp-validation-for="Name"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Email">Email address</label>
+                    <input asp-for="Email" class="form-control"  placeholder="Email">
+                    <span class="text-danger" asp-validation-for="Email"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Password">Password</label>
+                    <input asp-for="Password" class="form-control"  placeholder="Password">
+                    <span class="text-danger" asp-validation-for="Password"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="ConfrimPassword">Confirm Password</label>
+                    <input asp-for="ConfrimPassword" class="form-control" id="exampleInputConfirmPassword1" placeholder="Password">
+                    <span class="text-danger" asp-validation-for="ConfrimPassword"></span>
+                </div>
+                
+                <button type="submit" class="btn btn-primary me-2">Register</button>
+                
+            </form>
+        </div>
+    </div>
+</div>

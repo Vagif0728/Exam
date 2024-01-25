@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "2AbX277boQSKFuI5wIs5i9Y20st/Ph1AZq+xZ9TUxJ0=",
+  "Hash": "d7CPhue8uDhlY8ciorbZBLc1+4ct6m1WPH+xrm5CaTk=",
   "Source": "FinalExam",
   "BasePath": "_content/FinalExam",
   "Mode": "Default",
@@ -2652,6 +2652,23 @@
       "OriginalItemSpec": "wwwroot\\img\\icons\\1d109f7a-b159-4751-8fe8-b5329c459b5934ghdgg33ffssfff3.png"
     },
     {
+      "Identity": "C:\\Users\\CA.R215.18\\Desktop\\FinalExam\\FinalExam\\wwwroot\\img\\icons\\1dc6ceeb-5773-4ab8-b4f6-8127439681e21822821_1200x627.jpg",
+      "SourceId": "FinalExam",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\CA.R215.18\\Desktop\\FinalExam\\FinalExam\\wwwroot\\",
+      "BasePath": "_content/FinalExam",
+      "RelativePath": "img/icons/1dc6ceeb-5773-4ab8-b4f6-8127439681e21822821_1200x627.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\icons\\1dc6ceeb-5773-4ab8-b4f6-8127439681e21822821_1200x627.jpg"
+    },
+    {
       "Identity": "C:\\Users\\CA.R215.18\\Desktop\\FinalExam\\FinalExam\\wwwroot\\img\\icons\\4b1ceed7-940a-483c-ae9b-d039172cffd734ghdgg33ffssfff3.png",
       "SourceId": "FinalExam",
       "SourceType": "Discovered",
@@ -2735,6 +2752,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\icons\\creativity.png"
+    },
+    {
+      "Identity": "C:\\Users\\CA.R215.18\\Desktop\\FinalExam\\FinalExam\\wwwroot\\img\\icons\\dc559c3e-9447-4c91-8ad1-cd424d85a9301822821_1200x627.jpg",
+      "SourceId": "FinalExam",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\CA.R215.18\\Desktop\\FinalExam\\FinalExam\\wwwroot\\",
+      "BasePath": "_content/FinalExam",
+      "RelativePath": "img/icons/dc559c3e-9447-4c91-8ad1-cd424d85a9301822821_1200x627.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\icons\\dc559c3e-9447-4c91-8ad1-cd424d85a9301822821_1200x627.jpg"
     },
     {
       "Identity": "C:\\Users\\CA.R215.18\\Desktop\\FinalExam\\FinalExam\\wwwroot\\img\\icons\\lab.png",
